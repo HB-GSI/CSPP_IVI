@@ -20,7 +20,7 @@ Related documents and information
 
 GIT Submodules
 ==============
-This package can used as submodule
+This package can be used as submodule
 - Packages\CSPP_IVI: Implementations of derived CS++DeviceBase classes using IVI driver
 
 External Dependencies
