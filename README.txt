@@ -1,10 +1,10 @@
 CSPP_IVI extends the CSPP_DeviceBase package of the CS++-Project. 
 
-It contains derived actor classes of the CS++DeviceActor base classes using the IVI driver, IVI_DCPwr, IVI_DMM, IVI_FGEN. More device types are prepared but not yet implemented.
+It contains derived classes of the CS++DeviceActor respectivly their device specific derived classes in CSPP_DeviceBase. 
 
 Refer to https://github.com/HB-GSI/CSPP for CS++ project overview, details and documentation.
 
-LabVIEW 2013 is currently used development.
+LabVIEW 2014 is the currently used development environment.
 
 Related documents and information
 =================================
@@ -14,27 +14,32 @@ Related documents and information
 - Contact: H.Brand@gsi.de or D.Neidherr@gsi.de
 - Download, bug reports... : http://github.com/HB-GSI/CSPP_IVI
 - Documentation:
-  - Refer to Documantation Folder
+  - Refer to package folder
   - Project-Wiki: https://github.com/HB-GSI/CSPP/wiki
   - NI Actor Framework: https://decibel.ni.com/content/groups/actor-framework-2011?view=overview
 
-You can use this package as GIT Submodule.
+GIT Submodules
+==============
+This package can used as submodule
+- Packages\CSPP_IVI: Implementations of derived CS++DeviceBase classes using IVI driver
 
 External Dependencies
-=================================
+---------------------
+- CSPP_Core: http://github.com/HB-GSI/CSPP_Core
 - CSPP_DeviceBase: http://github.com/HB-GSI/CSPP_DeviceBase
 
-Optional submodules available:
-- CSPP_Examples
+Optional submodules
+-------------------
+- CSPP_Examples: http://github.com/HB-GSI/CSPP_Examples
 
 Getting started:
 =================================
 - Add IVI-Content.vi into your own LabVIEW project. You can drag the desired libraries from the dependencies into your virtual project folder structure.
+- Add IVI-Content.vi into your desired case of the CS++UserContents.vi
 - You need to extend your project specific ini-file.
-  - Sample ini-file should be available for all classes, either in the LV-Project or on disk in the corresponding class or package folder.
-- You need to create and deploy your project specific shared Variable libraries.
-  - Sample shared Variable libraries should be available for all concerned classes on disk in the corresponding class or package folder.
-- A sample MAX configuration file usinf the NI simulation driver in included.
+  - A sample ini-file should be available for all classes on disk in the corresponding package folder.
+- You need to create and deploy your project specific shared variable libraries.
+  - A sample shared variable library should be available on disk in the CSPP_DeviceBase package folder.
 
 
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
