@@ -51,4 +51,5 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="IVI_DMM.lvclass" Type="LVClass" URL="../IVI_DMM.lvclass"/>
 	<Item Name="IVI_DMM_Delayed.lvclass" Type="LVClass" URL="../../IVI_DMM_Delayed/IVI_DMM_Delayed.lvclass"/>
+	<Item Name="IviDmm - Single Point Measurement.vi" Type="VI" URL="../IviDmm - Single Point Measurement.vi"/>
 </Library>
