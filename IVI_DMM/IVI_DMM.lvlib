@@ -49,7 +49,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="IVI_DMM-3458A.lvclass" Type="LVClass" URL="../../IVI_DMM-3458A/IVI_DMM-3458A.lvclass"/>
 	<Item Name="IVI_DMM.lvclass" Type="LVClass" URL="../IVI_DMM.lvclass"/>
-	<Item Name="IVI_DMM_Delayed.lvclass" Type="LVClass" URL="../../IVI_DMM_Delayed/IVI_DMM_Delayed.lvclass"/>
 	<Item Name="IviDmm - Single Point Measurement.vi" Type="VI" URL="../IviDmm - Single Point Measurement.vi"/>
 </Library>
