@@ -52,4 +52,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Item Name="IVI_DMM-3458A.lvclass" Type="LVClass" URL="../../IVI_DMM-3458A/IVI_DMM-3458A.lvclass"/>
 	<Item Name="IVI_DMM.lvclass" Type="LVClass" URL="../IVI_DMM.lvclass"/>
 	<Item Name="IviDmm - Single Point Measurement.vi" Type="VI" URL="../IviDmm - Single Point Measurement.vi"/>
+	<Item Name="IVIDMM-Synchronized-Readout.vi" Type="VI" URL="../IVIDMM-Synchronized-Readout.vi"/>
+	<Item Name="IVIDMM-Triggered-Readout.vi" Type="VI" URL="../IVIDMM-Triggered-Readout.vi"/>
 </Library>
